@@ -8,7 +8,7 @@ return [
     'from_name' => env('MAIL_FROM_NAME', 'Vendro'),
     'smtp' => [
         'host' => env('MAIL_HOST', '127.0.0.1'),
-        'port' => (int) env('MAIL_PORT', '587'),
+        'port' => env_int('MAIL_PORT', 587),
         'username' => env('MAIL_USERNAME', ''),
         'password' => env('MAIL_PASSWORD', ''),
         'encryption' => env('MAIL_ENCRYPTION', 'tls'),
