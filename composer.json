@@ -1,0 +1,20 @@
+{
+  "name": "gfavour/vendro",
+  "description": "Enterprise modular digital commerce platform in pure PHP",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/functions.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
